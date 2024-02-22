@@ -1,0 +1,83 @@
+.select__test__container {
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  padding: 2em;
+  background-color: #f5d2d2;
+  box-shadow: 0 0 30px #f1d2d2;
+  /* Add a gradient to the background */
+  background-image: linear-gradient(to right, #f4f4f4, #ffffff);
+}
+
+p.test__wrapper__heading {
+  padding: 5px 0;
+}
+
+.select__heading {
+  margin-top: 20px;
+}
+
+.select__test__body {
+  height: 30vh;
+  max-height: 30vh;
+  border: 1px solid #e8e8e8;
+  overflow-y: scroll;
+}
+
+.select__button {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.test__wrapper {
+  padding: 1em;
+  border: 1px solid #e8e8e8;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.test__wrapper:hover {
+  background-color: #f3f1f1;
+  /* Add a subtle shadow to the hover state */
+  box-shadow: 0 0 5px #999;
+}
+
+.selected__test {
+  background-color: #7ebfff;
+  /* Add a brighter gradient to the selected state */
+  background-image: linear-gradient(to right, #e7f5ff, #7ebfff);
+}
+
+.selected__test:hover {
+  background-color: #7ebfff !important;
+  /* Remove the shadow from the hover state */
+  box-shadow: none;
+}
+
+.select__test {
+  font-size: 14px;
+  font-weight: 400;
+  color: #676a6c;
+  /* Add a slight text shadow */
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.time {
+  margin: 0;
+  color: #999;
+  /* Add a subtle text shadow */
+  text-shadow: 1px 1px 1px #fff;
+}
+
+.start {
+  color: #007bff;
+}
+
+.end {
+  color: #ff4d4f;
+}
+
+.dark {
+  background-color: var(--light-primary);
+}
